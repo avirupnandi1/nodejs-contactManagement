@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "This is nodeJS tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Avirup Nandi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.0.0-alpha.6"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.1",
+    "progress": "^2.0.3",
+    "router": "^1.3.8"
+  },
+  "optionalDependencies": {
+    "colors": "^1.4.0"
+  }
+}
